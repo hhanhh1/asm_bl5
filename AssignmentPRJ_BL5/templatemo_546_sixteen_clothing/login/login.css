@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("background2.jpg");
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.sub1-container{
+    width: 100%;
+    height: 10%;
+}
+.sub1-container img{
+    width: 120px;
+    padding-right: 1200px;
+    padding-bottom: 50px;
+}
+
+.sub2-container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.login{
+    width: 1000px;
+    height: 350px;
+    background-position: 50% 50%;
+    box-shadow: 5px 5px 5px 5px #888888;
+    border-radius: 10px;
+    display: flex;
+    background-color: #ffffff57;
+}
+.imgLogo{
+    width: 70%;
+    height: 100%;
+    text-align: center;
+}
+.imgLogo img{
+    width: 70%;
+}
+.sublogin{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h{
+    margin-right: 200px;
+    margin-bottom: 10px;
+    color: #4A4A4A;
+}
+.hr{
+    size: 70px;
+    background-color: #4A4A4A;
+    /* box-align: left 2px;
+    box-align: right 2px; */
+}
+.iconInText input{
+    padding-left: 25px;
+}
+.iconInText{
+    position: relative;
+}
+.iconInText i{
+    position: absolute;
+    top: 22px;
+    left: 7px;
+}
+.sub-text{
+    width: 92%;
+    height: 40px;
+    border-color: #F1EEEE;
+    border-radius: 5px;
+    margin: 8px 8px 5px 0px;
+}
+.but{
+    width: 100%;  
+}
+.sub-but{
+    width: 100%;
+    margin: 0px 8px 0px 5px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    background-color: #C43B68;
+    color: white;
+}
+input{
+    width: 100%;
+}
+#log{
+
+}
+.create{
+    height: 30%;
+    color: #888888;
+    padding-left: 250px;
+    margin: 10px 0px 15px 0px;
+} 
